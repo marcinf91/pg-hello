@@ -20,3 +20,8 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+function personalData() {
+	dane = 'Imie: Marcin' + '\n' +
+		   'Nazwisko: Feliks' + '\n';
+	navigator.notification.alert(dane);
+}
